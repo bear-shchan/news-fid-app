@@ -1,0 +1,66 @@
+﻿#cnzz_stat_icon_1260847311{
+  display: none;
+}
+/*轮播图*/
+.mint-swipe {
+  overflow: hidden;
+  position: relative;
+  height: 100%;
+}
+.mint-swipe-items-wrap {
+  position: relative;
+  overflow: hidden;
+  height: 100%;
+}
+.mint-swipe-items-wrap > div {
+  position: absolute;
+  -webkit-transform: translateX(-100%);
+  transform: translateX(-100%);
+  width: 100%;
+  height: 100%;
+  display: none
+}
+.mint-swipe-items-wrap > div.is-active {
+  display: block;
+  -webkit-transform: none;
+  transform: none;
+}
+.mint-swipe-indicators {
+  position: absolute;
+  bottom: -0.14rem;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+.mint-swipe-indicator {
+  width: 0.16rem;
+  height: 0.16rem;
+  display: inline-block;
+  border-radius: 100%;
+  background: #000;
+  opacity: 0.2;
+  margin: 0 3px;
+}
+.mint-swipe-indicator.is-active {
+  background: #fff;
+}
+
+/*菊花转*/
+.app-spinner{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 30%;
+  width: 50%;
+  margin: -15% 0 0 -25%;
+}
+
+/*详情页全局样式*/
+.details-content img{
+  width: 9.2rem;
+}
+/* 妖股列表 */
+.content i{
+  font-style: normal;
+  color: #f35b6a;
+}
