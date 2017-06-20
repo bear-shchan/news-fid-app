@@ -5,6 +5,7 @@
       <router-view id="container" class="mh-box"></router-view>
     </transition>
     <!--<go-home></go-home>-->
+    <downloadFoot></downloadFoot>
     <loading></loading>
   </div>
 </template>
@@ -13,13 +14,15 @@
 import HeaderDiv from './components/Header'
 // import GoHome from './components/GoHome'
 import Loading from './components/Loading'
+import downloadFoot from './components/app/downloadFoot'
 
 export default {
   name: 'app',
   components: {
     HeaderDiv,
     // GoHome,
-    Loading
+    Loading,
+    downloadFoot
   },
   data () {
     return {
